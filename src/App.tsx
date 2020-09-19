@@ -1,8 +1,10 @@
 import React from 'react';
 
+import styles from './App.module.scss';
+
 function App(): JSX.Element {
   return (
-    <div>Hello, World!</div>
+    <div className={styles.title}>Hello, World!</div>
   );
 }
 
