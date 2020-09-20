@@ -5,14 +5,11 @@ import {
   Route,
 } from 'react-router-dom';
 
-import Home from './pages/Home';
-
-import styles from './App.module.scss';
+import Home from "./pages/Home";
 
 function App(): JSX.Element {
   return (
     <>
-      <div className={styles.title}>Hello, World!</div>
       <BrowserRouter>
         <Switch>
           <Route path="/">

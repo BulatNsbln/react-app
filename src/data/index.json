@@ -1,0 +1,41 @@
+{
+  "list": [
+    {
+      "id": 123,
+      "category": "Сказочное заморское яство",
+      "name": "Нямушка",
+      "type": "с фуа-гра",
+      "numberOfServings": 10,
+      "presents": [
+        "мышь в подарок"
+      ],
+      "weight": 500,
+      "available": true
+    },
+    {
+      "id": 234,
+      "category": "Сказочное заморское яство",
+      "name": "Нямушка",
+      "type": "с рыбой",
+      "numberOfServings": 40,
+      "presents": [
+        "2 мыши в подарок"
+      ],
+      "weight": 2000,
+      "available": true
+    },
+    {
+      "id": 345,
+      "category": "Сказочное заморское яство",
+      "name": "Нямушка",
+      "type": "с курой",
+      "numberOfServings": 100,
+      "presents": [
+        "5 мышей в подарок",
+        "заказчик доволен"
+      ],
+      "weight": 5000,
+      "available": false
+    }
+  ]
+}
