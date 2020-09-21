@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../../components/ProductCard';
 
-import Product from '../api/Product';
-import { ProductType } from '../types';
+import Product from '../../api/Product';
+import { ProductType } from '../../types';
+import styles from './Home.module.scss';
 
-function Home(): JSX.Element {
+function Home() {
   const [ productList, setProductList ] = useState<Array<ProductType>>([]);
   useEffect(() => {
     const getProductList = async () => {
@@ -33,10 +34,10 @@ function Home(): JSX.Element {
   };
 
   return (
-    <main>
-      <h1>Ты сегодня покормил кота?</h1>
+    <main className={styles.container}>
+      <h1 className={styles.title}>Ты сегодня покормил кота?</h1>
 
-      <ul>
+      <ul className={styles.list}>
         {productList.map((item) => {
           return <ProductCard
             key={item.id}

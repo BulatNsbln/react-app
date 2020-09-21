@@ -1,0 +1,30 @@
+@import '../../assets/scss/_mixins.scss';
+
+.container {
+  padding-top: 47px;
+
+  background-color: black;
+  background-image: url(../../assets/images/Pattern.jpg);
+
+  @include pixelRatio2 {
+    background-image: url(../../assets/images/Pattern2x.jpg);
+  }
+
+  @include pixelRatio3 {
+    background-image: url(../../assets/images/Pattern3x.jpg);
+  }
+}
+
+.title {
+  margin: 0 auto;
+
+  font-size: 3.6rem;
+  font-weight: 400;
+  color: white;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}

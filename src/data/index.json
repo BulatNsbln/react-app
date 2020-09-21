@@ -10,7 +10,12 @@
         "мышь в подарок"
       ],
       "weight": 500,
-      "available": true
+      "available": true,
+      "image": {
+        "url": "Photo.png",
+        "url2x": "Photo@2x.png",
+        "url3x": "Photo@3x.png"
+      }
     },
     {
       "id": 234,
@@ -22,7 +27,12 @@
         "2 мыши в подарок"
       ],
       "weight": 2000,
-      "available": true
+      "available": true,
+      "image": {
+        "url": "Photo.png",
+        "url2x": "Photo@2x.png",
+        "url3x": "Photo@3x.png"
+      }
     },
     {
       "id": 345,
@@ -35,7 +45,12 @@
         "заказчик доволен"
       ],
       "weight": 5000,
-      "available": false
+      "available": false,
+      "image": {
+        "url": "Photo.png",
+        "url2x": "Photo@2x.png",
+        "url3x": "Photo@3x.png"
+      }
     }
   ]
 }

@@ -7,4 +7,9 @@ export type ProductType = {
   presents: Array<string>,
   weight: number,
   available: true,
+  image: {
+    url: string,
+    url2x: string,
+    url3x: string,
+  },
 }

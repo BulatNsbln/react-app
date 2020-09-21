@@ -1,0 +1,48 @@
+@mixin pixelRatio2 {
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin pixelRatio3 {
+  @media (-webkit-min-device-pixel-ratio: 3) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (min-width: 414px) {
+    @content
+  }
+}
+
+@mixin tablet() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin big-tablet() {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin laptop() {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin big-desktop() {
+  @media (min-width: 1920px) {
+    @content;
+  }
+}
+

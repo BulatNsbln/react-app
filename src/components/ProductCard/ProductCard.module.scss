@@ -11,3 +11,42 @@
   color: $weightColor;
   background-color: $weightBackground;
 }
+
+.card {
+  position: relative;
+
+  display: block;
+  width: 320px;
+  height: 480px;
+
+  border: none;
+  border-radius: 0 10px 10px;
+
+  background-color: blue;
+  clip-path: polygon(40px 0, 100% 0%, 100% 100%, 0 100%, 0 40px);
+
+  &:before {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+
+    width: 312px;
+    height: 472px;
+
+    border-radius: 0 10px 10px;
+
+    clip-path: polygon(40px 0, 100% 0%, 100% 100%, 0 100%, 0 40px);
+    content: '';
+    background-color: #f2f2f2;
+    z-index: -1;
+  }
+}
+
+.image {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+
+  width: 320px;
+  height: 273px;
+}
